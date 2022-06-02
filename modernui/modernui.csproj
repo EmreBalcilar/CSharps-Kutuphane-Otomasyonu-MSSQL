@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{729FEF7E-3165-47F3-87BF-CF02C35FBE8D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>modernui</RootNamespace>
+    <AssemblyName>modernui</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\Bnfu_1.5.3_crack\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnaSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnaSayfa.Designer.cs">
+      <DependentUpon>AnaSayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmanetEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmanetEkle.Designer.cs">
+      <DependentUpon>EmanetEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmanetListeleDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmanetListeleDetay.Designer.cs">
+      <DependentUpon>EmanetListeleDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmanetListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmanetListesi.Designer.cs">
+      <DependentUpon>EmanetListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KitapEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitapEkle.Designer.cs">
+      <DependentUpon>KitapEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kitaplistele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kitaplistele.Designer.cs">
+      <DependentUpon>kitaplistele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KitapListeleDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitapListeleDuzenle.Designer.cs">
+      <DependentUpon>KitapListeleDuzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UyeEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UyeEkle.Designer.cs">
+      <DependentUpon>UyeEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UyeListele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UyeListele.Designer.cs">
+      <DependentUpon>UyeListele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UyeListeleDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UyeListeleDuzenle.Designer.cs">
+      <DependentUpon>UyeListeleDuzenle.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AnaSayfa.resx">
+      <DependentUpon>AnaSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmanetEkle.resx">
+      <DependentUpon>EmanetEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmanetListeleDetay.resx">
+      <DependentUpon>EmanetListeleDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmanetListesi.resx">
+      <DependentUpon>EmanetListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KitapEkle.resx">
+      <DependentUpon>KitapEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kitaplistele.resx">
+      <DependentUpon>kitaplistele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KitapListeleDuzenle.resx">
+      <DependentUpon>KitapListeleDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UyeEkle.resx">
+      <DependentUpon>UyeEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UyeListele.resx">
+      <DependentUpon>UyeListele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UyeListeleDuzenle.resx">
+      <DependentUpon>UyeListeleDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
