@@ -5,4 +5,4 @@
 # DATABASE KISMI DOSYANIN İÇİNDEDİR KULLANMAK İÇİN BAĞLANTI STRİNGİNİ DEĞİŞTİRMENİZ GEREKMEKTEDİR
 
 
-![Giriş sayfası]([http://url/to/img.png](https://i.hizliresim.com/mw3esvg.png))
+![alt text](https://i.hizliresim.com/mw3esvg.png)
