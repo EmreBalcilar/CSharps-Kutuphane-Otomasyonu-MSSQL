@@ -1,2 +1,8 @@
-# K-t-phane-Otomasyonu
- 
+# C# ve MSSQL KULLANILARAK YAPILAN VE MODERN UI SAHİP KÜTÜPHANE OTOMASYONU 
+# KİTAP EKLEME, SİLME, GÜNCELLEME
+# EMANET EKLEME, SİLME, GÜNCELLEME,
+# ÜYE EKLEME, SİLME, GÜNCELLEME
+# DATABASE KISMI DOSYANIN İÇİNDEDİR KULLANMAK İÇİN BAĞLANTI STRİNGİNİ DEĞİŞTİRMENİZ GEREKMEKTEDİR
+
+
+![Giriş sayfası]([http://url/to/img.png](https://i.hizliresim.com/mw3esvg.png))
